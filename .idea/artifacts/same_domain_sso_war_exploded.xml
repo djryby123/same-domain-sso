@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="same-domain-sso:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/same_domain_sso_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="same-domain-sso/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="same-domain-sso" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
